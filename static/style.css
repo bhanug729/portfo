@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'authenia';
+    src: url('authenia.woff2') format('woff2'),
+         url('authenia.woff') format('woff'),
+         url('authenia.ttf') format('truetype'),
+         url('authenia.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+::-moz-selection {
+	background-color: #e6e83e;	
+}
+::selection {
+	background-color: #e6e83e;
+}
+.script {
+	font-family: 'authenia', sans-serif;
+	font-size: 65px;
+	font-size: 6.5rem;
+	line-height: .8;
+	padding: 20px 0;
+}
